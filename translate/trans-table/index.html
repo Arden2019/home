@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="referrer" content="never">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <meta name="author" content="ApacheCN Team">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Trans table - ApacheCN</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-127082511-1', 'apachecn.org');
+            ga('send', 'pageview');
+        </script> 
+      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <!-- baidu union -->
+      <meta name="baidu_union_verify" content="f57410375adefc6880b9e0972468e329">
+      
+      <!-- baidu webmaster -->
+      <meta name="baidu-site-verification" content="QQxaB1k0Bw" />
+      <!-- baidu webmaster push -->
+      <script src="//push.zhanzhang.baidu.com/push.js"></script>
+      
+      <!-- baidu stats -->
+      <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?84fca651656bc67b4b2d56605b6d0852";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+      </script>
+      
+      <!-- google webmaster -->
+      <meta name="google-site-verification" content="pyo9N70ZWyh8JB43bIu633mhxesJ1IcwWCZlM3jUfFo" />
+      
+      <!-- bing webmaster -->
+      <meta name="msvalidate.01" content="9E9EA92F7E5327E1FE8A5196D5253664" />
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        ApacheCN
+                    </a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="https://www.ibooker.org.cn/">布客</a>
+                            </li>
+                            <li >
+                                <a href="../../info/">公告</a>
+                            </li>
+                            <li >
+                                <a href="https://github.com/apachecn/ai-roadmap/tree/master/v1.0">知识树</a>
+                            </li>
+                            <li >
+                                <a href="https://docs.apachecn.org">文档</a>
+                            </li>
+                            <li >
+                                <a href="../../learn/">学习</a>
+                            </li>
+                            <li >
+                                <a href="../../game/">比赛</a>
+                            </li>
+                            <li >
+                                <a href="../../map/">咨询</a>
+                            </li>
+                            <li >
+                                <a href="https://it-ebooks.flygon.net">新知</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">组织 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../about/" class="dropdown-item">关于</a>
+</li>
+                                    
+<li>
+    <a href="https://www.ibooker.org.cn/organization/" class="dropdown-item">成员</a>
+</li>
+                                    
+<li>
+    <a href="https://t.modian.com/project/67957.html" class="dropdown-item">众筹</a>
+</li>
+                                    
+<li>
+    <a href="../../donate/" class="dropdown-item">捐赠记录</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li>
+                                <a href="https://github.com/apachecn/home/"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#_1" class="nav-link">变量/运算符</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#_2" class="nav-link">控制结构</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#_3" class="nav-link">程序组织</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#-er" class="nav-link">-er</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#_4" class="nav-link">集合</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#-able" class="nav-link">-able</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#web" class="nav-link">Web</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#sql" class="nav-link">SQL</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#_5" class="nav-link">可视化</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#dsai" class="nav-link">DSAI</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                <div class="col-md-9" role="main">
+                    
+
+<h1 align="center">翻译对照表</h1>
+
+<hr />
+<h2 id="_1">变量/运算符</h2>
+<ul>
+<li>
+<p>comment</p>
+<p>注释 *</p>
+<p>评论</p>
+</li>
+<li>
+<p>recipe</p>
+<p>秘籍</p>
+<p>配方|食谱</p>
+</li>
+<li>
+<p>primitive</p>
+<p>原始类型、原语</p>
+<p>基元</p>
+</li>
+<li>
+<p>literal *</p>
+<p>字面值</p>
+<p>文字</p>
+</li>
+<li>
+<p>naive</p>
+<p>朴素</p>
+<p>天真</p>
+</li>
+<li>
+<p><code>***</code>keyword</p>
+<p>（不翻译）关键字</p>
+<p>-</p>
+</li>
+<li>
+<p>main method</p>
+<p><code>main</code>方法</p>
+<p>主要?方法</p>
+</li>
+<li>
+<p>operator</p>
+<p>运算符</p>
+<p>操作员|算子|运营商</p>
+</li>
+<li>
+<p>in-place</p>
+<p>原地</p>
+<p>就地</p>
+</li>
+<li>
+<p>global</p>
+<p>全局</p>
+<p>全球</p>
+</li>
+<li>
+<p>concat</p>
+<p>连接</p>
+<p>串联</p>
+</li>
+<li>
+<p>application</p>
+<p>应用</p>
+<p>应用程序</p>
+</li>
+<li>
+<p>utility</p>
+<p>工具</p>
+<p>实用程序</p>
+</li>
+<li>
+<p>architecture</p>
+<p>架构</p>
+<p>体系结构|建筑</p>
+</li>
+<li>
+<p>trusy</p>
+<p>真值</p>
+<p>真实</p>
+</li>
+<li>
+<p>falsy</p>
+<p>假值</p>
+<p>虚假</p>
+</li>
+<li>
+<p>agent</p>
+<p>智能体</p>
+<p>代理(商|人)?</p>
+</li>
+<li>
+<p>broker</p>
+<p>中介</p>
+<p>代理</p>
+</li>
+<li>
+<p>value</p>
+<p>值 *</p>
+<p>价值</p>
+</li>
+<li>
+<p>evaluate</p>
+<p>求值</p>
+<p>评估</p>
+</li>
+<li>
+<p>reference</p>
+<p>引用 *</p>
+<p>参考</p>
+</li>
+<li>
+<p>promise</p>
+<p><code>Promise</code></p>
+<p>承诺|诺言</p>
+</li>
+<li>
+<p>future</p>
+<p><code>Future</code></p>
+<p>未来|期货</p>
+</li>
+<li>
+<p>optional</p>
+<p><code>Optional</code></p>
+<p>期权</p>
+</li>
+<li>
+<p>performance</p>
+<p>性能|表现 *</p>
+<p>表现|绩效</p>
+</li>
+</ul>
+<h2 id="_2">控制结构</h2>
+<ul>
+<li>
+<p>statement</p>
+<p>语句</p>
+<p>陈述</p>
+</li>
+<li>
+<p>if statement/block</p>
+<p><code>if</code>语句/块</p>
+<p>如果(语句|块|阻止|声明)</p>
+</li>
+<li>
+<p>while statement/loop/block</p>
+<p><code>while</code>语句/循环/块</p>
+<p>(而|当)(语句|循环|块|阻止|声明)</p>
+</li>
+<li>
+<p>for statement/loop/block</p>
+<p><code>for</code>语句/循环/块</p>
+<p>(用于|为|对于)(语句|循环|块|阻止|声明)</p>
+</li>
+<li>
+<p>switch statement/block</p>
+<p><code>switch</code>语句/块</p>
+<p>(开关|切换)(语句|块|阻止|声明)</p>
+</li>
+<li>
+<p>switch case</p>
+<p><code>switch case</code></p>
+<p>(开关|切换)盒</p>
+</li>
+<li>
+<p>break statement</p>
+<p><code>break</code>语句</p>
+<p>(打破|破坏|中断)(语句|声明)</p>
+</li>
+<li>
+<p>continue statement</p>
+<p><code>continue</code>语句</p>
+<p>继续(语句|声明)</p>
+</li>
+<li>
+<p>try block/statement</p>
+<p><code>try</code>块/语句</p>
+<p>尝试(阻止|块|语句|声明)</p>
+</li>
+<li>
+<p>catch block/statement</p>
+<p><code>catch</code>块/语句</p>
+<p>捕获(块|阻止|语句|声明)</p>
+</li>
+<li>
+<p>try catch</p>
+<p><code>try catch</code></p>
+<p>尝试捕获</p>
+</li>
+<li>
+<p>finally block/statement</p>
+<p><code>finally</code>块/语句</p>
+<p>最终(块|阻止|语句|声明)</p>
+</li>
+<li>
+<p>checked</p>
+<p>受检的</p>
+<p>已?检查的</p>
+</li>
+<li>
+<p>unchecked</p>
+<p>非受检的</p>
+<p>未经?检查的</p>
+</li>
+<li>
+<p>exception</p>
+<p>异常 *</p>
+<p>例外</p>
+</li>
+</ul>
+<h2 id="_3">程序组织</h2>
+<ul>
+<li>
+<p>function</p>
+<p>函数 *</p>
+<p>功能</p>
+</li>
+<li>
+<p>argument</p>
+<p>参数/实参</p>
+<p>论点</p>
+</li>
+<li>
+<p>call</p>
+<p>调用</p>
+<p>呼叫</p>
+</li>
+<li>
+<p>class</p>
+<p>类 *</p>
+<p>班级?|课程?</p>
+</li>
+<li>
+<p>super class</p>
+<p>超类</p>
+<p>超级类</p>
+</li>
+<li>
+<p>children</p>
+<p>子项 *</p>
+<p>孩子|儿童</p>
+</li>
+<li>
+<p>parent</p>
+<p>父项 *</p>
+<p>父母</p>
+</li>
+<li>
+<p>private</p>
+<p>私有</p>
+<p>私人</p>
+</li>
+<li>
+<p>inherit</p>
+<p>继承</p>
+<p>遗产</p>
+</li>
+<li>
+<p>override</p>
+<p>覆盖</p>
+<p>重写</p>
+</li>
+<li>
+<p>poly</p>
+<p>多态</p>
+<p>多态性</p>
+</li>
+<li>
+<p>member</p>
+<p>成员</p>
+<p>会员</p>
+</li>
+<li>
+<p>field</p>
+<p>字段 *</p>
+<p>领域</p>
+</li>
+<li>
+<p>interface</p>
+<p>接口 *</p>
+<p>界面</p>
+</li>
+<li>
+<p>annotation</p>
+<p>注解 *</p>
+<p>注释|批注</p>
+</li>
+<li>
+<p>package</p>
+<p>包</p>
+<p>软件包|程序包</p>
+</li>
+<li>
+<p>library</p>
+<p>库</p>
+<p>图书馆</p>
+</li>
+<li>
+<p>import</p>
+<p>导入</p>
+<p>进口</p>
+</li>
+<li>
+<p>export</p>
+<p>导出</p>
+<p>出口</p>
+</li>
+<li>
+<p>dependency</p>
+<p>依赖项</p>
+<p>依赖性</p>
+</li>
+<li>
+<p>implement</p>
+<p>实现</p>
+<p>实施</p>
+</li>
+</ul>
+<h2 id="-er">-er</h2>
+<ul>
+<li>
+<p>constructer</p>
+<p>构造器</p>
+<p>构造函数</p>
+</li>
+<li>
+<p>destructor</p>
+<p>析构器</p>
+<p>析构函数</p>
+</li>
+<li>
+<p>getter</p>
+<p>获取器</p>
+<p>吸气剂</p>
+</li>
+<li>
+<p>setter</p>
+<p>设置器</p>
+<p>二传手</p>
+</li>
+<li>
+<p>worker</p>
+<p>工作器</p>
+<p>工人|工作人员</p>
+</li>
+<li>
+<p>listen</p>
+<p>监听</p>
+<p>侦听</p>
+</li>
+<li>
+<p>listener</p>
+<p>监听器</p>
+<p>侦听器|听众</p>
+</li>
+<li>
+<p>handler</p>
+<p>处理器</p>
+<p>处理程序</p>
+</li>
+<li>
+<p>executor</p>
+<p>执行器</p>
+<p>执行程序</p>
+</li>
+<li>
+<p>provider</p>
+<p>生产者/供应器</p>
+<p>供应商|提供程序</p>
+</li>
+<li>
+<p>initializer</p>
+<p>初始化器</p>
+<p>初始化程序</p>
+</li>
+<li>
+<p>builder</p>
+<p>构建器</p>
+<p>建造者</p>
+</li>
+<li>
+<p>sceduler</p>
+<p>调度器</p>
+<p>调度程序</p>
+</li>
+<li>
+<p>logger</p>
+<p>记录器</p>
+<p>记录程序</p>
+</li>
+<li>
+<p>manager</p>
+<p>管理器 *</p>
+<p>经理</p>
+</li>
+<li>
+<p>learner</p>
+<p>学习器</p>
+<p>学习者</p>
+</li>
+<li>
+<p>generator</p>
+<p>生成器</p>
+<p>发生器|发电机</p>
+</li>
+</ul>
+<h2 id="_4">集合</h2>
+<ul>
+<li>
+<p>collection</p>
+<p>集合</p>
+<p>收藏|收集|藏品</p>
+</li>
+<li>
+<p>Map</p>
+<p>映射</p>
+<p>地图</p>
+</li>
+<li>
+<p>Key</p>
+<p>键 *</p>
+<p>密钥</p>
+</li>
+<li>
+<p>Array</p>
+<p>数组</p>
+<p>阵列</p>
+</li>
+<li>
+<p>Linked List</p>
+<p>链表</p>
+<p>链接列表</p>
+</li>
+<li>
+<p>vector</p>
+<p>向量 *</p>
+<p>矢量</p>
+</li>
+<li>
+<p>Set</p>
+<p>集 *</p>
+<p>集合</p>
+</li>
+<li>
+<p>Stack</p>
+<p>栈</p>
+<p>堆栈</p>
+</li>
+<li>
+<p>order</p>
+<p>排序/顺序</p>
+<p>(订单|订购|预订)</p>
+</li>
+</ul>
+<h2 id="-able">-able</h2>
+<ul>
+<li>
+<p>Comparable Interface</p>
+<p><code>Comparable</code>接口</p>
+<p>可比较?接口</p>
+</li>
+<li>
+<p>Serializable Interface</p>
+<p><code>Serializable</code>接口</p>
+<p>可序列化接口</p>
+</li>
+<li>
+<p>Externalizable Interface</p>
+<p><code>Externalizable</code>接口</p>
+<p>可外部化接口</p>
+</li>
+<li>
+<p>Iterable Interface</p>
+<p><code>Iterable</code>接口</p>
+<p>可迭代接口</p>
+</li>
+<li>
+<p>Runnable Interface</p>
+<p><code>Runnable</code>接口</p>
+<p>可运行接口</p>
+</li>
+</ul>
+<h2 id="web">Web</h2>
+<ul>
+<li>
+<p>maven</p>
+<p>maven</p>
+<p>马文</p>
+</li>
+<li>
+<p>spring</p>
+<p>spring</p>
+<p>春(天|季)</p>
+</li>
+<li>
+<p>spring boot</p>
+<p>spring boot</p>
+<p>春(天|季)(启动|靴子)</p>
+</li>
+<li>
+<p>hibernate</p>
+<p>hibernate *</p>
+<p>冬眠|休眠</p>
+</li>
+<li>
+<p>jetty</p>
+<p>jetty</p>
+<p>码头</p>
+</li>
+<li>
+<p>jersey</p>
+<p>jersey</p>
+<p>球衣/泽西岛</p>
+</li>
+<li>
+<p>authentication</p>
+<p>认证</p>
+<p>身份验证</p>
+</li>
+<li>
+<p>rest</p>
+<p>rest *</p>
+<p>休息|剩余</p>
+</li>
+<li>
+<p>aspect</p>
+<p>切面 *</p>
+<p>方面</p>
+</li>
+<li>
+<p>before advice</p>
+<p>前置建议</p>
+<p>建议之前</p>
+</li>
+<li>
+<p>after advise</p>
+<p>后置建议</p>
+<p>建议之后</p>
+</li>
+<li>
+<p>around advise</p>
+<p>围绕建议</p>
+<p>建议周围</p>
+</li>
+<li>
+<p>after return advise</p>
+<p>返回后建议</p>
+<p>返回建议后</p>
+</li>
+<li>
+<p>after throw advise</p>
+<p>抛出后建议</p>
+<p>抛出建议后</p>
+</li>
+</ul>
+<h1 id="sql">SQL</h1>
+<ul>
+<li>
+<p>transaction</p>
+<p>事务</p>
+<p>交易</p>
+</li>
+<li>
+<p>table</p>
+<p>表</p>
+<p>桌子</p>
+</li>
+<li>
+<p>cursor</p>
+<p>游标 *</p>
+<p>光标</p>
+</li>
+</ul>
+<h2 id="_5">可视化</h2>
+<ul>
+<li>
+<p>plot</p>
+<p>绘图</p>
+<p>情节</p>
+</li>
+<li>
+<p>axes</p>
+<p>轴域 *</p>
+<p>轴</p>
+</li>
+<li>
+<p>figure</p>
+<p>图形</p>
+<p>数字|人物</p>
+</li>
+<li>
+<p>spine</p>
+<p>轴线</p>
+<p>刺|棘</p>
+</li>
+<li>
+<p>scale</p>
+<p>刻度</p>
+<p>标度</p>
+</li>
+</ul>
+<h2 id="dsai">DSAI</h2>
+<ul>
+<li>
+<p>英文</p>
+<p>正确翻译</p>
+<p>谷歌输出</p>
+</li>
+<li>
+<p>series</p>
+<p>序列 *</p>
+<p>系列|级数</p>
+</li>
+<li>
+<p>train</p>
+<p>训练</p>
+<p>火车|列车|培训</p>
+</li>
+<li>
+<p>one hot</p>
+<p>单热</p>
+<p>一(个|种)热</p>
+</li>
+<li>
+<p>sigmoid</p>
+<p>sigmoid</p>
+<p>乙状</p>
+</li>
+<li>
+<p>deep q</p>
+<p>深度 q</p>
+<p>深 q</p>
+</li>
+<li>
+<p>feed</p>
+<p>馈送</p>
+<p>喂食</p>
+</li>
+<li>
+<p>unsupervised</p>
+<p>无监督</p>
+<p>无人监督</p>
+</li>
+<li>
+<p>sample</p>
+<p>样本</p>
+<p>样品</p>
+</li>
+<li>
+<p>error</p>
+<p>误差</p>
+<p>错误</p>
+</li>
+<li>
+<p>cell</p>
+<p>单元</p>
+<p>细胞|小区</p>
+</li>
+<li>
+<p>term</p>
+<p>项 *</p>
+<p>术语</p>
+</li>
+<li>
+<p>model</p>
+<p>模型</p>
+<p>型号|模特</p>
+</li>
+<li>
+<p>recurrent</p>
+<p>循环 *</p>
+<p>复发|递归</p>
+</li>
+<li>
+<p>graph</p>
+<p>图*</p>
+<p>图表|图形</p>
+</li>
+<li>
+<p>feature</p>
+<p>特征</p>
+<p>要素</p>
+</li>
+<li>
+<p>unit</p>
+<p>单元 *</p>
+<p>单位</p>
+</li>
+<li>
+<p>learning rate</p>
+<p>学习率</p>
+<p>学习速率</p>
+</li>
+<li>
+<p>accuracy</p>
+<p>准确率</p>
+<p>准确(度|性)</p>
+</li>
+<li>
+<p>batch</p>
+<p>批量</p>
+<p>批处理</p>
+</li>
+<li>
+<p>dropout</p>
+<p>dropout</p>
+<p>辍学|丢失</p>
+</li>
+<li>
+<p>gradient boost</p>
+<p>梯度提升</p>
+<p>梯度增强</p>
+</li>
+<li>
+<p>pooling</p>
+<p>池化</p>
+<p>汇集</p>
+</li>
+<li>
+<p>binary classification</p>
+<p>二分类</p>
+<p>二进制分类</p>
+</li>
+<li>
+<p>multiple classification</p>
+<p>多分类</p>
+<p>多重分类</p>
+</li>
+<li>
+<p>multiple regression</p>
+<p>多元回归</p>
+<p>多重回归</p>
+</li>
+<li>
+<p>layer</p>
+<p>层</p>
+<p>图层</p>
+</li>
+<li>
+<p>autoencoding</p>
+<p>自编码</p>
+<p>自动编码</p>
+</li>
+<li>
+<p>policy</p>
+<p>策略</p>
+<p>政策</p>
+</li>
+<li>
+<p>loss</p>
+<p>损失</p>
+<p>失利|损耗</p>
+</li>
+<li>
+<p>estimate</p>
+<p>估计</p>
+<p>估算</p>
+</li>
+<li>
+<p>performance</p>
+<p>表现</p>
+<p>性能|绩效</p>
+</li>
+<li>
+<p>epoch</p>
+<p>周期</p>
+<p>时期|时代|历元|纪元</p>
+</li>
+<li>
+<p>gradient</p>
+<p>梯度</p>
+<p>渐变</p>
+</li>
+<li>
+<p>discriminator</p>
+<p>判别器</p>
+<p>鉴别器</p>
+</li>
+<li>
+<p>overfit</p>
+<p>过拟合</p>
+<p>过度拟合</p>
+</li>
+<li>
+<p>regulazation</p>
+<p>正则化</p>
+<p>规范化</p>
+</li>
+<li>
+<p>bias</p>
+<p>偏置</p>
+<p>偏见</p>
+</li>
+<li>
+<p>weight</p>
+<p>权重 *</p>
+<p>重量|体重</p>
+</li>
+<li>
+<p>std</p>
+<p>标准差</p>
+<p>标准偏差</p>
+</li>
+<li>
+<p>transfer</p>
+<p>迁移 *</p>
+<p>转移|传输</p>
+</li>
+<li>
+<p>filter</p>
+<p>过滤器</p>
+<p>滤镜</p>
+</li>
+<li>
+<p>diffentiate</p>
+<p>微分</p>
+<p>区分</p>
+</li>
+</ul>
+                    
+                    <hr/>
+                    <div align="center">
+                        <p><a href="http://www.apachecn.org" target="_blank"><font face="KaiTi" size="6" color="red">我们一直在努力</font></a></p>
+                        <p><a href="https://github.com/apachecn/home/" target="_blank">apachecn/home</a></p>
+                        <p><iframe align="middle" src="https://ghbtns.com/github-btn.html?user=apachecn&repo=home&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="100px" height="25px"></iframe>
+                        <iframe align="middle" src="https://ghbtns.com/github-btn.html?user=apachecn&repo=home&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="25px"></iframe>
+                        <iframe align="middle" src="https://ghbtns.com/github-btn.html?user=apachecn&repo=home&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="25px"></iframe>
+                        <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=bcee938030cc9e1552deb3bd9617bbbf62d3ec1647e4b60d9cd6b6e8f78ddc03"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="ML | ApacheCN" title="ML | ApacheCN"></a></p>
+                        <div style="margin:0 0 10.5px;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1275211409'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1275211409%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script></div>
+                        <!-- google ads -->
+                        <div style="text-align:center;margin:0 0 10.5px;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:728px;height:90px"
+                             data-ad-client="ca-pub-3565452474788507"
+                             data-ad-slot="2543897000"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script></div>
+                    </div>
+
+                    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                    <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+                    <div id="gitalk-container" class="container-fluid"></div>
+                    <script type="text/javascript">
+                        var gitalk = new Gitalk({
+                        clientID: '8bf005dd930e269fc5bb',
+                        clientSecret: 'a80b7852ffb5a90ca1aca12fb28d7c58bea0c0d3',
+                        repo: 'home',
+                        owner: 'apachecn',
+                        admin: ['jiangzhonglian'],
+                        id: md5(location.pathname),
+                        distractionFreeMode: false
+                        })
+                        gitalk.render('gitalk-container')
+                    </script>
+
+                    <!-- 来必力City版安装代码 -->
+                    <!-- <div id="lv-container" data-id="city" data-uid="MTAyMC8zODYzOC8xNTE2Ng==">
+                            <script type="text/javascript">
+                            (function(d, s) {
+                                var j, e = d.getElementsByTagName(s)[0];
+                            
+                                if (typeof LivereTower === 'function') { return; }
+                            
+                                j = d.createElement(s);
+                                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                                j.async = true;
+                            
+                                e.parentNode.insertBefore(j, e);
+                            })(document, 'script');
+                            </script>
+                            <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+                        </div> -->
+                        <!-- City版安装代码已完成 -->
+                </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+        
+        <iframe src="https://www.bilibili.com/read/cv4337277" style="display:none"></iframe>
+        <iframe src="https://juejin.im/post/5e0af93ee51d4540e27747c5" style="display:none"></iframe>
+    </body>
+</html>
